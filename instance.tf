@@ -16,6 +16,7 @@ output "nbrnet" {
 
 output "privatekey" {
   value = "${var.privatekey}"
+  sensitive = true
 }
 
 
