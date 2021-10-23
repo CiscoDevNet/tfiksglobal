@@ -21,4 +21,5 @@ variable "appport" {
 //private key
 variable "privatekey" {
   type = string
+  sensitive = true
 }
