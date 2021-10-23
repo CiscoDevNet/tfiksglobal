@@ -18,3 +18,7 @@ variable "nbrnet" {
 variable "appport" {
   type = string
 }
+//private key
+variable "privatekey" {
+  type = string
+}

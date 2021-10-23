@@ -14,6 +14,9 @@ output "nbrnet" {
   value = "${var.nbrnet}"
 }
 
+output "privatekey" {
+  value = "${var.privatekey}"
+}
 
 
 
