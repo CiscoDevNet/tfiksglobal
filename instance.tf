@@ -35,7 +35,7 @@ output "password" {
   value = "${var.password}"
   sensitive = true
 }
-output "dockeruser " {
+output "dockeruser" {
   value = "${var.dockeruser}"
 }
 output "dockerpass" {
