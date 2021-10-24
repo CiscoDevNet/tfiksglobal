@@ -39,7 +39,7 @@ variable "password" {
   type = string
   sensitive = true
 }
-variable "dockeruser " {
+variable "dockeruser" {
   type = string
 }
 variable "dockerpass" {
