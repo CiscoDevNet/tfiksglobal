@@ -23,3 +23,29 @@ variable "privatekey" {
   type = string
   sensitive = true
 }
+variable "url" {
+  type = string
+}
+variable "account" {
+  type = string
+}
+variable "namespaces" {
+  type = string
+}
+variable "username" {
+  type = string
+}
+variable "password" {
+  type = string
+  sensitive = true
+}
+variable "dockeruser " {
+  type = string
+}
+variable "dockerpass" {
+  type = string
+  sensitive = true
+}
+variable "storename" {
+  type = string
+}
